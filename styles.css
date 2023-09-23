@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding:0;
+    /* background: url("portfolioimg.avif"); */
+}
+
+.sidebar{
+    background-color: rgb(228, 228, 228);
+    width: 434px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding:40px;
+
+}
+.sidebar nav li:hover{
+
+    /* font-size: 20px;
+    color:rgb(136, 136, 226); */
+    background-color: rgb(225, 225, 250);
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    background: url("portfolioimg.avif");
+    color:rgb(86, 58, 58)
+}
+.container{
+    display: flex;
+
+}
+.infocontainer{
+    /* background-color: rgb(218, 218, 246); */
+    height: 55vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.divInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 80px;
+    
+
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.about{
+
+    font-size: 50px;
+}
+.button{
+    margin-top: 30px;
+    /* not wpork */
+}
+
+.button button{
+padding:9px 14px;
+border-radius: 22px;
+color:white;
+background-color: rgb(114, 114, 247);
+font-size: 21;
+font-weight: bold;
+margin: 0 3px ;
+cursor: pointer;
+}
+
+/* .devpic img{
+    height: 78vh;
+
+
+} */
+.moreabout{
+    font-size: 20px;
+    margin-top: 23px;
+}
+
+.button button:hover{
+    color:rgb(62, 59, 246);
+    background-color: rgb(228, 228, 230);
+
+
+
+}
+.contactform{
+    padding: 0px 34px;
+    padding-top:144px;
+    font-size: 25px;
+
+
+}
+.contactform h1{
+    text-align: center;
+
+}
+.contactform form div{
+    padding:15px 0;
+    display:flex;
+    flex-direction: column;
+}
+.contactform form div input{
+width:16vw;
+border-redius:5px;
+margin:6px 0;
+padding:3px;
+
+}
+
+#emilHelp{
+    font-size: 12px;
+    color:rgb(117, 117, 255);
+    margin:0 5px;
+}
+.btn{
+padding:9px 14px;
+border-radius: 22px;
+color:rgb(251, 251, 251);
+background-color: rgb(114, 114, 247);
+font-size: 21;
+font-weight: bold;
+margin: 0 3px ;
+cursor: pointer;
+}
+.btn-sm{
+    font-size:12px;
+    padding:5px 10px;
+    margin:12px 0;
+}
+.btn:hover{
+    background-color: rgb(245, 244, 243);
+    color:rgb(121, 121, 255);
+}
+
+.blogItem {
+    margin: 70px;
+    font-size: 30px;
+    color:rgb(125, 83, 83)
+
+}
+.h1{
+    margin:25px;
+
+}
+
+.introh2{
+    margin: 12px;
+
+}
+
+.introp{
+    margin: 12px;
+
+}
+.skillcontainer{
+    padding:12px;
+    font-size: 30px;
+}
+.skill{
+    width:235px;
+    height: 10px;
+    background-color: blue;
+}
+.skillItem{
+ display:flex;
+ align-items: center;
+ background-color: rgb(21, 83, 228);
+ /* border: 2px solid black; */
+
+}
+.intro{
+    padding-top:30px;
+    font-size: 25px;
+    color:rgb(125, 83, 83)
+}
+.hundered{
+    width: 265px;
+    color:rgb(109, 68, 68)
+}
+.fifty{
+    width:125px;
+    background-color: rgb(97, 190, 97);
+
+}
+.t5{
+    width: 75px;
+    background-color: rgb(206, 105, 105);
+}
+@media ( max-width:1615px){
+    *{
+    backgrounf-color:red;
+    }
+}
+
+.blogcontainer{
+    padding-top: 35px;
+    font-size: 40px;
+}
+
+
